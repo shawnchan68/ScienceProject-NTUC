@@ -18,4 +18,4 @@ jobs:
       - name: Build
         run: mvn -B clean compile
       - name: Run ExcelMonitor
-        run: mvn exec:java -Dexec.mainClass=ScienceFair.ScienceFair.ExcelMonitor -Dexec.args="src/main/java/ScienceFair/ScienceFair/ScienceFair.xlsx"
+        run: mvn exec:java -Dexec.mainClass=ScienceFair.ScienceFair.ExcelMonitor
